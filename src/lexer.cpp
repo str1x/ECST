@@ -1,9 +1,13 @@
 #include <iostream>
 #include "lexer.h"
 
-namespace lexer {
+/*lexer::tokenTypes = {*/
+/*  identifier,*/
+/*  konst,*/
+/*  let,*/
+/*  var,*/
+/*};*/
 
-  void test() {
-    std::cout << "TEST" << std::endl;  
-  }
+void lexer::test_v() {
+  std::cout << "TEST1" << std::endl;
 }

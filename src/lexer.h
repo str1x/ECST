@@ -2,8 +2,23 @@
 #define LEXER
 
 namespace lexer {
-  void test();
-}
+  void test_v();
 
-#endif  // LEXER
+  /*enum class TokenType {*/
+  /*  typeConst,*/
+  /*  typeLet,*/
+  /*  typeVar,*/
+  /*  typeIdentifier,*/
+  /*  typeAssing,*/
+  /*  typeValue,*/
+  /*  typeSemicolon,*/
+  /*};*/
+  /**/
+  /*class Token {*/
+  /*  public:*/
+  /*    TokenType type;*/
+  /**/
+  /*};*/
+} // namespace lexer
 
+#endif // LEXER

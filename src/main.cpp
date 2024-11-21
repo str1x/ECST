@@ -1,5 +1,5 @@
-#include "lexer.h"
+#include <iostream>
 
-int main () {
-  lexer::test();
+int main() {
+  std::cout << "TEST123322" << std::endl;
 }

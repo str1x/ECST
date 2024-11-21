@@ -4,6 +4,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_C_COMPILER /usr/bin/clang)
 set(CMAKE_CXX_COMPILER /usr/bin/clang++)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_CXX_CLANG_TIDY "clang-tidy")
 
 project(ECST VERSION 1.0
                   DESCRIPTION "ECma Sctipt Transpiler"
